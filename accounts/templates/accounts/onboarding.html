@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Onboarding</h1>
+<form method="post" action="/onboarding/">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button type="submit", name="save">Create New</button>
+</form>
+</body>
+</html>
+
+
+
